@@ -1,0 +1,32 @@
+
+.grid-container {
+    padding: 5px;
+    position: absolute;
+    background-color: #ffffff;
+    border-style:solid;
+    left: 400px;
+    top: 200px;
+}
+.grid-cell {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0.5px;
+    border-radius: 0px;
+    background-color: white;
+}
+#btn{
+    position: absolute;
+    left: 400px;
+    top: 160px;
+}
+#End{
+    display: none;
+    font-weight: bold;
+    font-size:36px;
+    color: red;
+    position: absolute;
+    left:500px;
+    top:350px;
+    z-index: 20;
+}
